@@ -1,0 +1,39 @@
+{
+    "name": "nice-yu/http-in-out",
+    "description": "Convert input and output to DTO class objects",
+    "keywords": [
+        "input",
+        "request",
+        "output",
+        "response",
+        "dto class"
+    ],
+    "homepage": "https://github.com/nice-yu/http-in-out",
+    "type": "library",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "nice-yu",
+            "email": "nice-yu@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "jms/serializer": ">=3.0"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^5.4",
+        "phpunit/phpunit": "9.6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "NiceYu\\HttpInOut\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "NiceYu\\Tests\\": "tests/"
+        }
+    }
+}
